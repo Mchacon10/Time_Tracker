@@ -11,7 +11,7 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar bg-gray-800 text-white h-full p-4 min-h-screen">
-      <h1 className="text-2xl font-bold mb-4">TIME_TRACKER</h1>
+      <h1 className="text-2xl font-bold mb-4">PROTOTIPO TIME TRACKER</h1>
       <ul>
         <li className={`mb-2 ${isActive('/users') ? 'text-activeOption' : ''}`}>
           <Link to="/users" className="hover:text-gray-400">Usuarios</Link>
